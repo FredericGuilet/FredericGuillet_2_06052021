@@ -78,7 +78,7 @@
 }
 
 
-#AubergelaCannebiere , #HotelDuPort ,#HoteldesMouettes , #Hoteldelamer , #Aubergelepanier , #HotelchezAmina , #HotelLeSoleilduMatin , #Aucoeurdeleau, #Hoteltoutbleuetblanc
+#CadreBlancHebergement
 {
     background-color: white ;
     border: 5 px  solid white;
@@ -89,20 +89,18 @@
     line-height: 1 px;
 }
 
-#HotelLeSoleilduMatin , #Aucoeurdeleau, #Hoteltoutbleuetblanc
+#CadreBlancHebergementPopulaires
 {
     display: flex;
     flex-flow: row;
-    justify-content: left;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: white ;
+    border: 5 px  solid white;
+    border-radius: 8%;
+    text-align: left;
     padding: 8px;
     margin: 5px;
-}
-
-span.NomHotel
-{
-    font-weight: bold;
-    font-size: 3 em;
+    line-height: 1 px;
 }
 
 #imageHotel 
@@ -118,7 +116,8 @@ span.NomHotel
     
      width: 100px;
      height: 133px;
-     object-fit: cover
+     object-fit: cover ;
+     margin: 0 px ;
   }
 
 
