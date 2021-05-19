@@ -1,5 +1,8 @@
+  /* pas aussi pratique que la version dans les cours
+  mais j'ai trouvé que le ttf et sans la version packagé */
 
-@font-face{                                                    
+@font-face{                   
+
   font-family: "Raleway-Regular"; 
   src: url("polices/Raleway-Regular.ttf") format("truetype");
   
@@ -22,14 +25,9 @@
   src: url("polices/Raleway-ExtraLight.ttf") format("truetype");
 
   font-family: "Raleway-Bold"; 
-  src: url("polices/Raleway-Bold.ttf") format("truetype");                                                               /* police fournie en .ttf only */
+  src: url("polices/Raleway-Bold.ttf") format("truetype");
 }
 
-/* #bloc_page
-{
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-} */
 
 body{
   font-family: "Raleway-Regular", Arial, Verdana, sans-serif; 
@@ -73,6 +71,17 @@ body{
 
  }
 
+ .classementetDesEtoiles{
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.blue {
+  color: #0065FC; 
+}
+.grey{
+  color:rgb(217,217,217);
+}
 
 
  #hebergementetPopulaires
