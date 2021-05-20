@@ -62,7 +62,6 @@ body{
 }
 
 
-
 #menuliens
 {
     display: flex;
@@ -72,13 +71,28 @@ body{
 
  }
 
- .classementetDesEtoiles{
-  font-size: 1rem;
+ /* Ici ca marche pas encore pourquoi ? */
+ /* .classementetDesEtoiles
+ {
+  font-size: 1 em;
   margin-left: 10px;
   margin-top: -10px;
-}
+} */
+
+ /* Ici ca marche pas encore pourquoi ? */
+/* .PourCustmosiserSelectionPropositions
+{
+  font-size: 10.2em;
+
+} */
+
 .blue {
   color: #0065FC; 
+  /* je voulais essayer d'entourer légerement les étoiles
+  border-style:inset;
+  border-color: #FC0; 
+  text-decoration: #FC0;*/
+
 }
 .grey{
   color:rgb(217,217,217);
@@ -169,20 +183,28 @@ body{
   }
 
 
-a:link {
-    text-decoration: none;
+#footer
+  {
+    background-color:grey ;
   }
-  
-  a:visited {
+a:link
+{
     text-decoration: none;
-  }
+}
   
-  a:hover {
+  a:visited
+{
+    text-decoration: none;
+}
+  
+  a:hover
+{
     text-decoration: underline;
     text-shadow: #FC0 1px 0 10px;
 
-  }
+}
   
-  a:active {
+  a:active
+{
     text-decoration: none;
-  }
+}

@@ -2,7 +2,12 @@
 <html>
 	 <head>
 		    <meta charset="utf-8" />
-            <link rel="stylesheet" href="style.css" />
+            <link rel="stylesheet" href="Style.css" />
+
+               <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
+            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">  -->
+
             <script src="https://kit.fontawesome.com/b4c84886ee.js" crossorigin="anonymous"></script>
 
 		    <!-- <title>Reservation voyageur</title> 
@@ -29,6 +34,33 @@
                     En plein centre ville ou en pleine nature
                 <h5>
 
+                    <form action="marecherche" method="post">
+                        <div>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <input type="text" id="ville" name="userVille" value="Marseille, France" >
+                            <label for="ville">Rechercher</label>
+                        </div>
+                    </form> <br /><br />
+
+                <div id="SelectionPropositions" >
+
+                    <table >
+                        <div id="PourCustmosiserSelectionPropositions">
+                        <tr>
+                           
+                                <td> Filtres </td>
+                                <td><i class="fas fa-money-bill-wave-alt blue "> </i> Economique</td>
+                                <td><i class="fas fa-child blue"></i> Familial</td>
+                                <td><i class="fas fa-heart blue "></i> Romantique</td>
+                                <td><i class="fas fa-dog blue "></i> Animaux autorisés</td>
+                        </tr>
+                        </div>
+                    </table>    
+
+
+                    </div>
+
+                </div>
                     
 
                  <div id = "hebergementetPopulaires" >    
@@ -164,10 +196,10 @@
                          </div>
                          <br />  <br />
                          <div id = "CadreBlancHebergementPopulaires" >
-                            <div>
+                                <div>
                              <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Imagehotelbleuetblanc" id="imageHotel2" />
-                            </div> 
-                             <div>
+                                </div> 
+                                <div>
                                  <p> <h4> Hotel Tout bleu et blanc</h4>
                                      Nuit à partir de de 68€ <br /><br /><br />
                                      <div class="classementetDesEtoiles">
@@ -176,11 +208,19 @@
                                          <i class="fas fa-star blue"></i>
                                          <i class="fas fa-star blue"></i>
                                          <i class="fas fa-star grey"></i>
-                                     </div> 
+                                </div> 
                              </div> 
                          </div>
 
                     </div>
+                </div>
+
+                <div id="activites">
+                    ici les activités
+                </div>
+
+                <div id="footer">
+                    bonjour je suis le footer
                 </div>
             </div>  
 	 </body>
