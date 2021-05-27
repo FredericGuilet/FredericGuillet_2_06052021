@@ -88,10 +88,10 @@ body{
 
 .blue {
   color: #0065FC; 
-  /* je voulais essayer d'entourer légerement les étoiles
-  border-style:inset;
+  /* je voulais essayer d'entourer légerement les étoiles */
+  /* border-style:inset;
   border-color: #FC0; 
-  text-decoration: #FC0;*/
+  text-decoration: #FC0; */
 
 }
 .grey{
