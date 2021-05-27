@@ -1,0 +1,302 @@
+.header
+{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    height: 150px;
+    width : 1000px ; */
+    /* background-color:beige; */
+}
+
+body{
+    font-family: "Raleway-Regular", Arial, Verdana, sans-serif; 
+    font-size: 100%; 
+  }
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    justify-content:space-between;
+    text-decoration: none;
+}
+
+
+
+.title
+{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: -20px;   
+}
+
+.subtitle
+{
+  font-family: "Raleway-ExtraLight", Arial, Verdana, sans-serif;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.header3
+{
+    /* display: flex;
+    flex-direction:row; */
+    align-items: center;
+    justify-content: left;
+    font-family: "Raleway-ExtraLight", Arial, Verdana, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+ .header6
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 150px;
+    width : 1000px ; */
+    background-color:beige;
+}
+
+
+#TexteTouverVotrehebergement ,#ActivitesMarseille ,#ToutesLesActivites
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: left;
+    height: 30px;
+    width : 100% ;
+    background-color: burlywood;
+    margin: 20px;
+}
+
+#search
+{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+    height: 150px;
+    width : 1000px ;
+    background-color:beige;
+}
+
+#carateremap ,#formulaire , #loupe
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width : 120px ;
+    background-color: burlywood;
+}
+
+#touslesFiltres
+{
+    display: flex;
+    flex-direction:row;
+
+    align-items: center;
+    justify-content: left;
+
+
+}
+
+
+#lesHotelsPopulaires
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* height: 150px;
+    width : 1000 px ; */
+    background-color:#F2F2F2 ;
+}
+
+#populaires
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* display: inline-block; */
+    /* height: 150px;
+    width : 1000 px ; */
+    background-color:#F2F2F2 ;
+}
+
+#lesHotelsaMarseille
+{  
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* height: 150px;
+    width : 1000px ; */
+    background-color:#F2F2F2 ;
+
+}
+
+#Hebergements
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* height: 150px;
+    width : 1000px ; */
+    background-color:#F2F2F2 ;
+
+}
+
+#CadreBlancHebergement
+{
+    background-color: white ;
+    border: 5 px  solid white;
+    border-radius: 8%;
+    text-align: left;
+    padding: 8px;
+    margin: 5px;
+    line-height: 1 px;
+}
+
+#CadreBlancHebergementPopulaires
+{
+
+    justify-content: space-around;
+    background-color: white ;
+    border: 5 px  solid white;
+    border-radius: 3%;
+    text-align: left;
+    padding: 8px;
+    /* margin: 50px; */
+    line-height: 1 px;
+}
+
+#imageHotel 
+{
+    border-radius: 8% 8% 0% 0% ;
+    width: 200px;
+    height: 133px;
+  }
+
+  #imageHotel2
+  {
+      border-radius: 8% 0% 0% 8% ;
+    width: 100px;
+       height: 133px;
+       object-fit :cover;
+       object-position: +10% 0 ;
+       margin right : 2 px ;
+    }
+/* 
+#EneteTitreblocpolaires ,#TexteHerbements
+{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width : 100% ;
+    background-color:burlywood;
+    margin: 20px;
+} */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-self: center; */
+    align-items: center;
+    /* height: 150px; */
+    /* width : 1000px ; */
+    background-color:#F2F2F2 ;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.blue {
+    color: #0065FC; 
+  }
+  .grey{
+    color:rgb(217,217,217);
+  }
+
+
+#TexteAPropos , #TexteNosHebergements , #TexteAssistance
+{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1280px)
+{
+
+#lesHotelsaMarseille
+{
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width : 700px;
+}
+
+#CadreBlancHebergementPopulaires
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* height: 150px;
+    width : 1000 px ; */
+    background-color:#F2F2F2 ;
+}
+#populaires
+{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+/* display: inline-block; */
+/* height: 150px;
+width : 1000 px ; */
+background-color:#F2F2F2 ;
+}
+
+#Hebergements
+{
+    display: flex;
+    align-items: left;
+ 
+}
+
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+}
