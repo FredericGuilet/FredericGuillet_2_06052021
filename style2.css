@@ -13,6 +13,7 @@
 body{
     font-family: "Raleway-Regular", Arial, Verdana, sans-serif; 
     font-size: 100%; 
+    width : 1100 px;
   }
 
 #logo
@@ -42,10 +43,10 @@ body{
   margin-bottom: 20px;
 }
 
-.header3
+.header3 ,.populairesEtHebergements
 {
-    /* display: flex;
-    flex-direction:row; */
+    display: flex;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content: left;
     font-family: "Raleway-ExtraLight", Arial, Verdana, sans-serif;
@@ -123,17 +124,7 @@ body{
     background-color:#F2F2F2 ;
 }
 
-#populaires
-{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
-    align-items: center;
-    /* display: inline-block; */
-    /* height: 150px;
-    width : 1000 px ; */
-    background-color:#F2F2F2 ;
-}
+
 
 #lesHotelsaMarseille
 {  
@@ -153,8 +144,8 @@ body{
     flex-direction: column;
     /* justify-content: space-around; */
     align-items: center;
-    /* height: 150px;
-    width : 1000px ; */
+    height: 700px;
+    width : 700px ;
     background-color:#F2F2F2 ;
 
 }
@@ -223,6 +214,8 @@ body{
     background-color:#F2F2F2 ;
 }
 
+
+
 ul
 {
     list-style: none;
@@ -268,11 +261,12 @@ ul
     display: flex;
     flex-direction: row;
 align-items: center;
-/* display: inline-block; */
-/* height: 150px;
-width : 1000 px ; */
+width : 300px ; 
+height:700px;
 background-color:#F2F2F2 ;
 }
+
+
 
 #Hebergements
 {
@@ -281,7 +275,13 @@ background-color:#F2F2F2 ;
  
 }
 
+#populairesEtHebergements
+{
+    display: flex;
+    flex-direction: row;
 
+
+}
 .footer
 {
     display: flex;
