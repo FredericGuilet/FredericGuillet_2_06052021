@@ -2,6 +2,10 @@
     /* A COMPLETER POUR LE RESPONSIVE */
 }
 
+
+
+
+
 @media screen and (min-width: 200px) and (max-width: 640px) {
 
 
@@ -76,19 +80,20 @@
 
     .subtitle {
         font-family: "Raleway-ExtraLight", Arial, Verdana, sans-serif;
-        margin-top: 8px;
-        margin-bottom: 20px;
+        /* margin-top: 8px;
+        margin-bottom: 20px; */
     }
 
 
-    /* SECTION POPUPLAIRES */
+    /* SECTION POPULAIRES */
     .populairesEtHebergements {
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         /* A SUPPRIMER A LA FIN DU PROJET */
         margin-top: 8px;
         margin-bottom: 20px;
         display: flex;
-        flex-direction: row;
+        width:100%;
+        flex-direction: column;
         align-items: center;
         justify-content: left;
     }
@@ -139,7 +144,7 @@
         background-color: burlywood;
     }
 
-    #touslesFiltres {
+    .touslesFiltres {
         display: flex;
         flex-direction: row;
 
@@ -207,6 +212,8 @@
         line-height: 1 px;
     }
 
+
+
     .CadreBlancHebergementPopulaires {
 
         justify-content: space-around;
@@ -225,7 +232,7 @@
         flex-direction: column;
         align-items: center;
         background-color: #F2F2F2;
-        width: 300 px;
+        width: 30 %;
     }
 
     .article {
@@ -305,6 +312,8 @@
         }
 
 
+
+
         .CadreBlancHebergementPopulaires {
             display: flex;
             flex-direction: row;
@@ -320,7 +329,7 @@
             flex-direction: column;
             align-items: center;
             background-color: #F2F2F2;
-            width: 300 px;
+            width:30%;
         }
 
 
@@ -341,6 +350,7 @@
             display: flex;
             flex-wrap: wrap;
             flex-direction: row-reverse;
+            width: 1025 px;
 
 
         }
@@ -352,6 +362,21 @@
             align-items: center;
             align-content: center;
 
+        }
+
+        .filter_button {
+            display: flex;
+            margin-right: 18px;
+            margin-left: 18px;
+            border: 2px #f2f2f2 solid;
+            border-radius: 30px;
+            padding-right: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .filter_button:hover {
+            background-color: #a0bfec;
         }
 
 
