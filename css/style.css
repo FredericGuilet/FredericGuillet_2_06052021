@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: dimgray;
     font-family: "Raleway";
 }
@@ -13,6 +13,15 @@ section {
     border: 2px solid white;
     min-height: 100px;
     clear: both;
+}
+
+.blue {
+    color: #0065FC;
+}
+
+.grey {
+
+    color: rgb(217, 217, 217);
 }
 
 .hebergement {
