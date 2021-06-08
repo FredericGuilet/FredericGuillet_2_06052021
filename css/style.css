@@ -8,6 +8,14 @@ header {
     min-height: 100px;
 }
 
+
+#logo {
+    /* background-color: pink; */
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+
 section {
     /* background-color: firebrick; */
     border: 2px solid white;
@@ -49,14 +57,14 @@ section {
 .activite {
     border-radius: 20px;
     background-color: white;
-    box-shadow: 0 10px 20px #000;
+    box-shadow: 0 10px 10px #000;
 }
 
 footer {
     background-color: #F2F2F2;
         margin-top: 40px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
