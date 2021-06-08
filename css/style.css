@@ -1,15 +1,15 @@
  body {
-    background-color: dimgray;
+    /* background-color: dimgray; */
     font-family: "Raleway";
 }
 
 header {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
     min-height: 100px;
 }
 
 section {
-    background-color: firebrick;
+    /* background-color: firebrick; */
     border: 2px solid white;
     min-height: 100px;
     clear: both;
@@ -36,7 +36,7 @@ section {
 }
 
 .fondgris {
-    background-color: lightgrey; /* METTRE LE GRIS QUI FAUT */
+    background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px;
 }
@@ -53,9 +53,13 @@ section {
 }
 
 footer {
-    clear: both;
-    background-color: forestgreen;
-    min-height: 100px;
+    background-color: #F2F2F2;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
 }
 
 ul li {
@@ -71,6 +75,16 @@ ul {
         background-color: lightcoral;
         min-height: 50px;
     }
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -78,4 +92,22 @@ ul {
 		background-color: lightgreen;
 		min-height: 75px;
 	}
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+
+    }
+
+
+
+
+
+
+
+
+
 }
