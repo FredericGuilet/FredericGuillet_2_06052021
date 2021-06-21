@@ -1,121 +1,43 @@
- body {
-    /* background-color: dimgray; */
+/* GENERAL */
+
+/* Ceci est la feuille de style qui gere l'ensemble commun  */
+
+body {
     font-family: "Raleway";
 }
 
-header {
-    /* background-color: dodgerblue; */
-    min-height: 100px;
-}
-
-
-#logo {
-    /* background-color: pink; */
-    width: 200px;
-    height: 200px;
-    /* float: left; */
-}
-
-section {
-    /* background-color: firebrick; */
-    border: 2px solid white;
-    min-height: 100px;
-    clear: both;
-}
-
-.blue {
-    color: #0065FC;
-}
-
-.grey {
-
-    color: rgb(217, 217, 217);
-}
-
-.hebergement {
-    float: left;
-    width: 75%;
-}
-
-.annonce {
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-}
-
-.fondgris {
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding: 30px;
-}
-
-.populaire {
-    float: left;
-    width: 25%;
-}
-
-.activite {
-    border-radius: 20px;
-    background-color: white;
-    box-shadow: 0 10px 10px #000;
-}
-
-footer {
-    background-color: #F2F2F2;
-        margin-top: 40px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: center;
-}
-
-ul li {
-    list-style: none;
-}
-
-ul {
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
     padding: 0;
 }
 
-@media screen and (min-width: 414px) and (max-width: 767px) {
-    header {
-        background-color: lightcoral;
-        min-height: 50px;
-    }
-
-
-    footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
-
-    }
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-	header {
-		background-color: lightgreen;
-		min-height: 75px;
-	}
+a {
+    color: #000000;
+    text-decoration: none;
+}
 
-    footer{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        align-content: center;
+.fas {
+    color: #0066FF;
+}
 
-    }
+.empty {
+    color: #D9D9D9;
+}
 
+.bg-gris {
+    background-color: #F2F2F2;
+}
 
+.bordure {
+    border-radius: 20px;
+}
 
-
-
-
-
-
-
+.ombre {
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
 }
