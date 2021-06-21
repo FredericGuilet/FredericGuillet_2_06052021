@@ -1,7 +1,4 @@
 /* GENERAL */
-
-/* Ceci est la feuille de style qui gere l'ensemble commun  */
-
 body {
     font-family: "Raleway";
 }
@@ -23,16 +20,7 @@ a {
 }
 
 .fas {
-    color:  #0065FC;
-}
-
-.blue {
-    color: #0065FC;
-}
-
-.grey {
-
-    color: rgb(217, 217, 217);
+    color: #0066FF;
 }
 
 .empty {

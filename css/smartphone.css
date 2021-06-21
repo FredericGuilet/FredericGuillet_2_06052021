@@ -26,6 +26,8 @@
         display: none;
     }
 
+
+
     header .navbar ul li {
         border-top: none;
         border-bottom: solid 3px transparent;
@@ -75,7 +77,7 @@
 	/* ANNONCES */
     section div.annonces {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     section div.annonces .hebergements {
