@@ -33,8 +33,13 @@ header .navbar ul li {
     padding: 30px 25px 30px 25px;
 }
 
-header .navbar ul li.active {
+/* header .navbar ul li.active {
     border-color: #0066FF;
+} */
+
+header .navbar ul li:hover{
+    cursor: pointer;
+    border-color: #0065FC;
 }
 
 header .navbar ul li.active a,
@@ -217,6 +222,7 @@ section div.annonces .populaires .annonce {
     background-color: #FFF;
 }
 
+
 populaires bg-gris bordure
 
 section div.annonces .populaires bordure h3
@@ -237,7 +243,9 @@ section div.annonces .populaires .annonce img.bordure {
     border-end-end-radius: 0;
 }
 
-
+#popular .fa-chart-line {
+    float:right;
+}
 
 section div.annonces .populaires .annonce  :hover
 {
