@@ -23,19 +23,27 @@
         color: #0065FC;
     } */
 
-    header .navbar .signin {
+    header .navbar {
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        /* max-width: 300px; */
+        justify-content: space-between;
+       /* justify-content:center  ; */
+    
+       
+    }
 
+    header .navbar .signin {
+/* 
         position:absolute;
-        position: top right ;
+        position: top right ; */
         padding: 0px 0px 0px 120px;
     }
 
     header .navbar ul li {
         
-        display:flex;
-        flex-direction: row;
-        border-top: none;
-        justify-content: center;
+
         border-bottom: solid 3px transparent;
         padding: 80px 0px 0px 05px;
 
