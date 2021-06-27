@@ -91,7 +91,7 @@
 
     section div.annonces .hebergements div {
         display: flex;
-		flex-direction: column;
+		flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
     }
@@ -101,8 +101,18 @@
 		padding: 0;
 	}
 
+.populaires bg-gris bordure
+    {
+        display: flex;
+		flex-direction: row;
+        justify-content: space-between;
+    }
+
 	section div.annonces .populaires {
        
+        display: flex;
+		flex-direction: row;
+        justify-content: space-between;
         order: 1;
 		width: 100%;
         margin-top: 30px;
