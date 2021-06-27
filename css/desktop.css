@@ -192,10 +192,10 @@ section div.annonces .hebergements .annonce img {
 }
 
 
-section div.annonces .hebergements .annonce img.bordure {
+/* section div.annonces .hebergements .annonce img.bordure {
     border-end-end-radius: 0;
     border-end-start-radius: 0;
-}
+} */
 
 section div.annonces .hebergements .annonce p {
     width: 65%;
