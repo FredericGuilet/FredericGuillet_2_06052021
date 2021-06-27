@@ -12,27 +12,33 @@
 
     /* HEADER */
     header {
-        padding: 10px 0 0;
+        padding: 10px 0px 0px ;
     }
 
-    header .navbar a.mobile {
+    /* header .navbar a.mobile {
+
         display: block;
         font-size: 0.9em;
         font-weight: 700;
         color: #0065FC;
+    } */
+
+    header .navbar .signin {
+
+        position:absolute;
+        position: top right ;
+        padding: 0px 0px 0px 120px;
     }
-
-    header .navbar ul li.signin {
-        display: none;
-    }
-
-
 
     header .navbar ul li {
+        
+        display:flex;
+        flex-direction: row;
         border-top: none;
+        justify-content: center;
         border-bottom: solid 3px transparent;
-        padding: 30px 25px 30px 25px;
-    }
+        padding: 80px 0px 0px 05px;
+
 
     header h2 {
         margin-top: 10px;
