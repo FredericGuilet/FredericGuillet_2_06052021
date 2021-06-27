@@ -191,7 +191,7 @@ section div.annonces .hebergements .annonce img {
     padding: 1px;
     border-radius: 20px 20px 0px 0px;
    
-    object-fit: fill;
+    object-fit: cover;
 
 }
 
