@@ -192,6 +192,7 @@ section div.annonces .hebergements .annonce img {
 }
 
 
+
 /* section div.annonces .hebergements .annonce img.bordure {
     border-end-end-radius: 0;
     border-end-start-radius: 0;
@@ -244,10 +245,10 @@ section div.annonces .populaires .annonce img {
     margin-right: 15px;
 }
 
-section div.annonces .populaires .annonce img.bordure {
+/* section div.annonces .populaires .annonce img.bordure {
     border-start-end-radius: 0;
     border-end-end-radius: 0;
-}
+} */
 
 #popular .fa-chart-line {
     float: right;
@@ -296,8 +297,8 @@ section .activites .colonne .annonce {
 
 img {
     height: 100%;
-    border-end-start-radius: 0;
-    border-end-end-radius: 0;
+    /* border-end-start-radius: 0;
+    border-end-end-radius: 0; */
 }
 
 section .activites .colonne .annonce img:hover {
