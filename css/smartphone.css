@@ -30,21 +30,21 @@
     {
 
         position: absolute;
-        position: top right;
+  
         padding: 0px 0px 0px 100px;
     }
 
     header .navbar ul li {
        
         position: relative;
-        position: center;
+      
         border-bottom: solid 3px transparent;
         padding: 80px 0px 0px 05px;
     }
 
     header .navbar ul li:hover {
         cursor: none;
-        border-color: none;
+        border-color: transparent;
     }
 
     header h2 {
