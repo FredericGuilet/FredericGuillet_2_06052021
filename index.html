@@ -17,7 +17,9 @@
 
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/b4c84886ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <!-- La c'est le lien des fontes  -->
 
@@ -54,7 +56,7 @@
                 <a href="#" class="mobile">S'inscrire</a>
                 <nav>
                     <ul>
-                        <li class="active"><a href="#">Hébergements</a></li>
+                        <li class="active"><a href="#hebergement">Hébergements</a></li>
                         <li><a href="#activites">Activités</a></li>
                         <li class="signin"><a href="#">S'inscrire</a></li>
                     </ul>
@@ -70,9 +72,9 @@
             <div class="filtres">
                 <p>Filtres</p>
                 <ul>
-                    <li class="boutons"><a href="#"><i class="fas fa-money-bill-wave-alt"></i> Economique</a></li>
-                    <li class="boutons"><a href="#"><i class="fas fa-child"></i> Familial</a></li>
-                    <li class="boutons"><a href="#"><i class="fas fa-heart"></i> Romantique</a></li>
+                    <li class="boutons"><a href="#"><i class="fas fa-money-bill-wave-alt blue "></i> Economique</a></li>
+                    <li class="boutons"><a href="#"><i class="fas fa-child blue "></i> Familial</a></li>
+                    <li class="boutons"><a href="#"><i class="fas fa-heart blue "></i> Romantique</a></li>
                     <li class="boutons"><a href="#"><i class="fas fa-dog blue "></i> Animaux autorisés</a></li>
                 </ul>
             </div>
@@ -80,9 +82,10 @@
         </header>
         <section>
         
-            <div class="annonces">
+            <div class="annonces" id="hebergement">
+               
                 <div class="hebergements bg-gris bordure">
-                    <h3>Hébergement à Marseille</h3>
+                    <h3>Hébergement à Marseille</h3> <br>
                     <div>
                         <div class="annonce bordure" >
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière" class="bordure">
@@ -123,9 +126,10 @@
                     </div>
                     <div><h3>Afficher plus</h3> </div>
                 </div>
+     
                 <div class="populaires bg-gris bordure">
                     <aside id="popular">
-                   <h3>Les plus populaires <i class="fas fa-chart-line black"></i></h3>
+                   <h3>Les plus populaires <i class="fas fa-chart-line black"></i></h3>  <br>
                     <div class="annonce bordure">
                         <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="TITRE" class="bordure">
                         <h3>Hôtel Le soleil du matin</h3>
@@ -147,8 +151,9 @@
                     </aside>
                 </div>
             </div>
+            <br>  <br>
              
-            <h2>Activités à Marseille</h2>
+            <h3>Activités à Marseille</h3>
             <div class="activites" id="activites">
                 <div class="colonne">
                     <a href="#" class="annonce bordure ombre big">
