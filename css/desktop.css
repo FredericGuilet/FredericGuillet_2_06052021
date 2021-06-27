@@ -1,7 +1,7 @@
 .wrapper,
 section div.annonces,
 section div.activites {
-    width: 1240px;
+    width: 1140px;
     /* largeur du site */
     margin: 0 auto;
     /* centrer le contenu sur l'axe horizontal */
@@ -165,8 +165,8 @@ section div.annonces h2 {
 }
 
 section div.annonces .hebergements {
-    width: 700px;
-    padding: 40px 40px;
+    width: 720px;
+    padding: 20px 20px;
 }
 
 section div.annonces .hebergements div {
@@ -177,7 +177,7 @@ section div.annonces .hebergements div {
 
 
 section div.annonces .hebergements .annonce {
-    width: 27%;
+    width: 31%;
     padding: 5px 5px 20px;
     margin-bottom: 30px;
     background-color: #FFF;
@@ -209,8 +209,8 @@ section div.annonces .hebergements .more {
 }
 
 section div.annonces .populaires {
-    width: 27%;
-    padding: 45px 40px;
+    width: 25%;
+    padding: 15px 40px;
 }
 
 section div.annonces .populaires h2 i {
