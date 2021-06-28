@@ -185,12 +185,12 @@ section div.annonces .hebergements .annonce {
     background-color: #FFF;
 }
 
-section div.annonces .hebergements a{
-    width:90%;
+section div.annonces .hebergements .annonce img  a{
+    width: 200px;
 }
 
 section div.annonces .hebergements .annonce img {
-    width: 100%;
+    width: 220px;
     height: 110px;
     padding: 1px;
     border-radius: 20px 20px 0px 0px; 
