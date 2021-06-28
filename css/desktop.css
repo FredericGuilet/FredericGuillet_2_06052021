@@ -185,6 +185,11 @@ section div.annonces .hebergements .annonce {
     background-color: #FFF;
 }
 
+section div.annonces .hebergements .annonce a{
+    width:100%;
+}
+
+
 section div.annonces .hebergements .annonce img {
     width: 100%;
     height: 110px;
