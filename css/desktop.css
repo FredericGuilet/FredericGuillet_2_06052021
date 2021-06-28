@@ -190,7 +190,7 @@ section div.annonces .hebergements a{
 }
 
 section div.annonces .hebergements .annonce img {
-    width: 100%;
+    width: 90%;
     height: 110px;
     padding: 1px;
     border-radius: 20px 20px 0px 0px; 
