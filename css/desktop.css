@@ -326,7 +326,7 @@ section .activites .colonne .annonce3 {
 
 section div.activites .colonne .annonce img {
     height : 100% ;
-    object-fit: cover;
+    object-fit: fill;
     padding : 0%;
     border-radius: 0px 0px 0px 0px;
 }
