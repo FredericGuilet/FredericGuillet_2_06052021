@@ -296,7 +296,7 @@ section .activites .colonne .annonce {
     overflow: hidden;
     margin-top: 15px;
     padding: 0px;
-    /* margin-bottom: 15px; */
+
 }
 
 section .activites .colonne .annonce2 {
@@ -308,7 +308,7 @@ section .activites .colonne .annonce2 {
     overflow: hidden;
     margin-top: 15px;
     padding: 0px;
-    /* margin-bottom: 15px; */
+
 }
 
 section .activites .colonne .annonce3 {
@@ -333,13 +333,16 @@ section div.activites .colonne .annonce img {
 
 section div.activites .colonne .annonce2 img {
     height: 80%;
+    width : 270px;
     padding : 0%;
+    object-fit: cover;
     border-radius: 0px 0px 0px 0px;
     
 }
 
 section div.activites .colonne .annonce3 img {
     height: 100%;
+    width : 270px;
     object-fit: cover;
     padding : 0%;
     align-items: top;
