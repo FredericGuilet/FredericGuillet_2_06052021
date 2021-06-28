@@ -188,7 +188,7 @@ section div.annonces .hebergements .annonce {
 
 
 section div.annonces .hebergements .annonce img {
-    width: 130px;
+    width: 100%;
     height: 110px;            
     padding: 1px;
     border-radius: 20px 20px 0px 0px; 
@@ -199,11 +199,11 @@ section div.annonces .hebergements .annonce img {
     width: 90%;
 } */
 
-
+/* 
 
 section div.annonces .hebergements .annonce p {
     width: 65%;
-}
+} */
 
 section div.annonces .hebergements .annonce .note {
     display: block;
