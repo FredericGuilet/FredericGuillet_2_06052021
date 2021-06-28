@@ -175,6 +175,7 @@ section div.annonces .hebergements div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
 
@@ -194,15 +195,10 @@ section div.annonces .hebergements .annonce img {
     object-fit: cover;
 }
 
-/* section div.annonces .hebergements img a{
-    width: 200%;
-}  */
 
-
-
-section div.annonces .hebergements .annonce p {
+/* section div.annonces .hebergements .annonce p {
     width: 65%;
-}
+} */
 
 section div.annonces .hebergements .annonce .note {
     display: block;
