@@ -1,7 +1,7 @@
 .wrapper,
 section div.annonces,
 section div.activites {
-    width: 1140px;
+    width: 1180px;
     /* largeur du site */
     margin: 0 auto;
     /* centrer le contenu sur l'axe horizontal */
@@ -270,7 +270,7 @@ section .activites {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 470px;
+    height: 450px;
 }
 
 section .activites .colonne {
@@ -281,6 +281,13 @@ section .activites .colonne {
 
 }
 
+section .activites .colonne2 {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    height: 30%;
+
+}
 section .activites .colonne .annonce {
     display: flex;
     flex-direction: column;
@@ -289,18 +296,69 @@ section .activites .colonne .annonce {
     overflow: hidden;
     margin-top: 15px;
     padding: 0px;
+    /* margin-bottom: 15px; */
+}
+
+section .activites .colonne .annonce2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 180px;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-top: 15px;
+    padding: 0px;
+    /* margin-bottom: 15px; */
+}
+
+section .activites .colonne .annonce3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 260px;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-top: 15px;
+    padding: 0px;
+    margin-bottom: 15px;
 }
 
 
-section div.activites .colonne img {
+section div.activites .colonne .annonce img {
     height : 100% ;
     object-fit: cover;
     padding : 0%;
     border-radius: 0px 0px 0px 0px;
 }
+
+section div.activites .colonne .annonce2 img {
+    height: 80%;
+    padding : 0%;
+    border-radius: 0px 0px 0px 0px;
+    
+}
+
+section div.activites .colonne .annonce3 img {
+    height: 100%;
+    object-fit: cover;
+    padding : 0%;
+    align-items: top;
+    border-radius: 0px 0px 0px 0px;
+}
+
 section div.activites .colonne .annonce h3 {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+section div.activites .colonne .annonce2 h3 {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+section div.activites .colonne .annonce3 h3 {
+    padding: 10px 20px;
+    font-size: 14px;
 }
 
 section div.activites .colonne .big {
