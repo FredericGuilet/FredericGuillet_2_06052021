@@ -149,24 +149,27 @@
 
 	/* FOOTER */
 
-    footer .wrapper {
+    /* footer .wrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
         
         
     }
-
+*/
     footer {
-        margin: 500px 10px -5px 0px ;
-        padding-left: 10px;
-        width: 650px;
-    }
+
+       margin-top : 500px;
+       /* margin-left :50px; */
+
+
+    } 
 
     footer .wrapper div {
-        width: 30%;
-        padding: 5px;
-    }
+        margin-left: -50px ;
+        width: 40%;
+        padding: 25px;
+    } 
 
     footer div h6 {
         font-size: 14px;
