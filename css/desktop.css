@@ -369,9 +369,9 @@ section div.activites .colonne .big {
 /* FOOTER */
 
 footer {
-    margin: 30px -580px 0px -580px;
+    margin: 30px 0px 0px 0px;
     /* padding: 2rem; */
-    max-width: 200%;
+    max-width: 100%;
     padding-top: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
