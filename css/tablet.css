@@ -6,7 +6,7 @@
 	section div.annonces,
 	section div.activites {
     
-            width: 769px;
+            width: 765px;
             margin: 0;
             padding: 0;
         
@@ -84,16 +84,19 @@
 
     section div.annonces .hebergements {
         order: 1;
-		width: 780px;
+		width: 750px;
+
     }
 
     .bg-gris {
-        background-color:transparent;
+        background-color : #F2F2F2;
+        border-radius: 15px;
     }
 
     section div.annonces .populaires {
-        width: 100%;
-        padding: 15px 40px;
+        width: 770px;
+        padding: 0px 10px 20px 10px;
+        margin: 10px 0px 10px 0px;
     }
 
     section div.annonces .hebergements div {
@@ -103,64 +106,16 @@
         justify-content: space-between;
     }
 
-	/* section div.annonces .hebergements .annonce {
-        display: flex;
-		flex-direction: raw;
-        justify-content: space-between;
-        width: 100%;
-		padding: 0;
-	} */
-
-    section div.annonces  #popular {
-              
-        display: flex;
-		flex-direction: column;
-        justify-content: space-between;
-        width: 100%;
-        padding: 15px 40px;
-        margin-top: 30px;
-        padding: 0;
-    }
-
-	section div.annonces .populaires .annonce {
-        display: flex;
-		flex-direction: row;
-        justify-content: space-between;
-		padding: 0;
-	}
-
 	/* ACTIVITES */
-	/* section .activites {
-		height: auto;
-	}
- */
-	section .activites .colonne {
-		width: 100%;
-		margin: 0;
-	}
 
-    section div.annonces .hebergements .annonce img {
-        width: 100%;
-        height:auto;
-    }
-
-    section div.annonces .hebergements .annonce img {
-        width: 100%;
-        height: 350px;
-        padding: 5px 5px 20px;
-        object-fit: cover;
-    
-    }
 
 	/* FOOTER */
-	footer .wrapper {
-		flex-direction: column;
-	}
 
-	footer .wrapper div {
+
+	/* footer .wrapper div {
 	    width: 100%;
 		margin-top: 30px;
-	}
+	} */
 
 
 }
