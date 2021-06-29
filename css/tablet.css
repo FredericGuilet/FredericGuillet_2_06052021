@@ -1,4 +1,4 @@
-@media screen and (min-width: 780px) and (max-width: 1200px) {
+@media screen and (min-width: 765px) and (max-width: 1200px) {
 
     /* Normalement j'aurais du mettre 992px selon les breakpoints responsive design 2021 mais je trouve cela bien adapté */
     
@@ -6,7 +6,7 @@
 	section div.annonces,
 	section div.activites {
     
-            width: 700px;
+            width: 680px;
             margin: 0 auto;
         
     }
@@ -32,8 +32,8 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 680px;
-        padding: 0 10px;
+        width: 670px;
+        padding: 0 5px;
     }
 
     header form input {
@@ -56,11 +56,11 @@
 
     header div.filtres {
         flex-wrap: wrap;
-        width: 775px;
+        width: 750px;
     }
 
     header div.filtres .boutons {
-        margin: 10px 0 0 20px;
+        margin: 5px 0 0 10px;
     }
 
 	/* ANNONCES */
@@ -72,10 +72,17 @@
 
     section div.annonces .hebergements {
         order: 1;
-		width: 700px;
-     
-
+		width: 650px;
     }
+
+    section div.annonces .hebergements .annonce {
+        width: 33%;
+        padding: 5px 5px 5px;
+        margin-bottom: 30px;
+        background-color: #FFF;
+    }
+     
+ 
     section div.annonces .hebergements div {
         display: flex;
 		flex-direction: row;
@@ -83,11 +90,19 @@
         justify-content: space-between;
     }
 
+    section div.annonces .hebergements .annonce img {
+        width: 210px;
+        height: 110px;            
+        padding: 1px;
+        border-radius: 20px 20px 0px 0px; 
+        object-fit: cover;
+    }
+
 
     	/* POUPOULAIRES */
 
     section div.annonces .populaires {
-        width: 710px;
+        width: 660px;
         padding: 0px 20px 20px 10px;
       
         margin: 10px 10px 10px 0px;
@@ -101,6 +116,14 @@
 
 	/* FOOTER */
 
+    footer .wrapper {
+        display: flex;
+        width: 100%;
+    }
 
+    footer {
+        margin-top: 30px;
+        padding: 20px;
+    }
 
 }
