@@ -6,28 +6,16 @@
 	section div.annonces,
 	section div.activites {
     
-            width: 800px;
+            width: 780px;
             /* margin: 0; */
         
     }
 
-	.bordure {
-		border-radius: 0;
-	}
 
     /* HEADER */
     header {
         padding: 10px 0 0;
     }
-
-    header .navbar .signin 
-    {
-
-        position: absolute;
-        padding: 0px 0px 0px 100px;
-    }
-
-
     header .navbar ul li {
         border-top: none;
         border-bottom: solid 3px transparent;
@@ -44,7 +32,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 750px;
         padding: 0 10px;
     }
 
@@ -83,16 +71,10 @@
 
     section div.annonces .hebergements {
         order: 1;
-		width: 750px;
-        border-radius: 15px;
+		width: 720px;
+     
 
     }
-/* 
-    .bg-gris {
-        background-color : #F2F2F2;
-        border-radius: 15px;
-    } */
-
     section div.annonces .hebergements div {
         display: flex;
 		flex-direction: row;
@@ -104,7 +86,7 @@
     	/* POUPOULAIRES */
 
     section div.annonces .populaires {
-        width: 760px;
+        width: 730px;
         padding: 0px 20px 20px 10px;
       
         margin: 10px 10px 10px 0px;
