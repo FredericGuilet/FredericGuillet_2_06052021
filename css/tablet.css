@@ -118,17 +118,66 @@
   
 	/* ACTIVITES */
 
+    section .activites {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:650px;
+        margin-bottom: 30px;
+       
+    }
+
+    section .activites .colonne {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        height: 100%;
+    
+    }
+
+    section div.activites .colonne .annonce img ,
+    section div.activites .colonne .annonce2 img ,
+    section div.activites .colonne .annonce3 img
+    {
+        height : 100% ;
+        width: 100%;
+        object-fit: cover;
+        padding : 0%;
+        border-radius: 0px 0px 0px 0px;
+    }
+
 
 	/* FOOTER */
 
     footer .wrapper {
         display: flex;
-        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        
+        
     }
 
     footer {
-        margin: -8px;
-        padding: 20px;
+        margin: 500px 10px -5px 0px ;
+        padding-left: 10px;
+        width: 650px;
     }
+
+    footer .wrapper div {
+        width: 30%;
+        padding: 5px;
+    }
+
+    footer div h6 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+
+footer div h6,
+footer div ul li {
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
 
 }

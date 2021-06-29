@@ -31,8 +31,8 @@ header .navbar ul {
 header .navbar ul li {
     border-top: solid 3px transparent;
     padding: 30px 25px 30px 25px;
-    margin :5px;
-    border-color:#F2F2F2;
+    margin: 5px;
+    border-color: #F2F2F2;
 }
 
 
@@ -67,7 +67,7 @@ header .fa-map-marker-alt {
     color: black;
     font-size: 1em;
     font-weight: 700;
-   
+
 
 }
 
@@ -189,9 +189,9 @@ section div.annonces .hebergements .annonce {
 
 section div.annonces .hebergements .annonce img {
     width: 222px;
-    height: 110px;            
+    height: 110px;
     padding: 1px;
-    border-radius: 20px 20px 0px 0px; 
+    border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
@@ -231,9 +231,7 @@ section div.annonces .populaires .annonce {
 
 
 
-section div.annonces .populaires 
-
-h3 {
+section div.annonces .populaires h3 {
     justify-content: space-between;
 }
 
@@ -288,6 +286,7 @@ section .activites .colonne2 {
     height: 30%;
 
 }
+
 section .activites .colonne .annonce {
     display: flex;
     flex-direction: column;
@@ -325,27 +324,26 @@ section .activites .colonne .annonce3 {
 
 
 section div.activites .colonne .annonce img {
-    height : 100% ;
+    height: 100%;
     object-fit: fill;
-    padding : 0%;
+    padding: 0%;
     border-radius: 0px 0px 0px 0px;
 }
 
 section div.activites .colonne .annonce2 img {
     height: 80%;
-    width : 270px;
-    padding : 0%;
+    width: 270px;
+    padding: 0%;
     object-fit: cover;
     border-radius: 0px 0px 0px 0px;
-    
+
 }
 
 section div.activites .colonne .annonce3 img {
     height: 100%;
-    width : 270px;
+    width: 270px;
     object-fit: cover;
-    padding : 0%;
-    /* align-items: top; */
+    padding: 0%;
     border-radius: 0px 0px 0px 0px;
 }
 
@@ -369,10 +367,15 @@ section div.activites .colonne .big {
 }
 
 /* FOOTER */
-footer {
-    margin-top: 30px;
-    padding: 2rem;
 
+footer {
+    margin: 30px -580px 0px -580px;
+    /* padding: 2rem; */
+    max-width: 200%;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 200px;
 }
 
 footer .wrapper {
