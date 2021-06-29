@@ -6,9 +6,8 @@
 	section div.annonces,
 	section div.activites {
     
-            width: 765px;
-            margin: 0;
-            padding: 0;
+            width: 800px;
+            /* margin: 0; */
         
     }
 
@@ -85,19 +84,14 @@
     section div.annonces .hebergements {
         order: 1;
 		width: 750px;
+        border-radius: 15px;
 
     }
-
+/* 
     .bg-gris {
         background-color : #F2F2F2;
         border-radius: 15px;
-    }
-
-    section div.annonces .populaires {
-        width: 770px;
-        padding: 0px 10px 20px 10px;
-        margin: 10px 0px 10px 0px;
-    }
+    } */
 
     section div.annonces .hebergements div {
         display: flex;
@@ -106,16 +100,24 @@
         justify-content: space-between;
     }
 
+
+    	/* POUPOULAIRES */
+
+    section div.annonces .populaires {
+        width: 760px;
+        padding: 0px 20px 20px 10px;
+      
+        margin: 10px 10px 10px 0px;
+        /* background-color : #F2F2F2; */
+        border-radius: 15px;
+    }
+
+  
 	/* ACTIVITES */
 
 
 	/* FOOTER */
 
-
-	/* footer .wrapper div {
-	    width: 100%;
-		margin-top: 30px;
-	} */
 
 
 }
