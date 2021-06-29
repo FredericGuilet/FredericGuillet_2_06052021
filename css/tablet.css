@@ -1,4 +1,4 @@
-@media screen and (min-width: 786px) and (max-width: 1200px) {
+@media screen and (min-width: 780px) and (max-width: 1200px) {
 
     /* Normalement j'aurais du mettre 992px selon les breakpoints responsive design 2021 mais je trouve cela bien adapté */
     
@@ -6,8 +6,8 @@
 	section div.annonces,
 	section div.activites {
     
-            width: 782px;
-            /* margin: 0; */
+            width: 700px;
+            margin: 0 auto;
         
     }
 
@@ -32,7 +32,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 700px;
+        width: 680px;
         padding: 0 10px;
     }
 
@@ -56,10 +56,11 @@
 
     header div.filtres {
         flex-wrap: wrap;
+        width: 775px;
     }
 
     header div.filtres .boutons {
-        margin: 15px 0 0 30px;
+        margin: 10px 0 0 20px;
     }
 
 	/* ANNONCES */
@@ -71,7 +72,7 @@
 
     section div.annonces .hebergements {
         order: 1;
-		width: 720px;
+		width: 700px;
      
 
     }
@@ -86,7 +87,7 @@
     	/* POUPOULAIRES */
 
     section div.annonces .populaires {
-        width: 730px;
+        width: 710px;
         padding: 0px 20px 20px 10px;
       
         margin: 10px 10px 10px 0px;
