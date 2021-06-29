@@ -107,7 +107,17 @@
 
     /* POUPOULAIRES */
 
+    section div.populaires
+    {
+        display: flex;
+        display: block;
+       flex-direction: row;
+       justify-content:space-between;
+        width: 660px;
+    }
+
     section div.annonces .populaires {
+       
         width: 660px;
         padding: 0px 20px 20px 10px;
 
@@ -163,7 +173,7 @@
 
     footer .wrapper div {
         /* margin-left: 0px; */
-        /* width: 40%; */
+        width: 40%;
         /* padding: 10px; */
   
     }
