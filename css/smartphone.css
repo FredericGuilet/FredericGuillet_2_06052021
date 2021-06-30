@@ -156,6 +156,8 @@
 
     /* POUPOULAIRES */
 
+
+
     section div.annonces .populaires {
         order: 1;
         width: 100%;
@@ -180,7 +182,8 @@
     /* ACTIVITES */
 
     section .activites .colonne .annonce {
-        height: 80%;
+        display: inherit;
+        height: 200px;
         border-width: 1px;
         margin: 20px 10px 5px 0px;
         background-color: white;
