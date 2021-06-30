@@ -209,6 +209,10 @@ section div.annonces .hebergements .more {
     font-weight: 700;
 }
 
+.bg-gris2 {
+    background-color: #F2F2F2;
+}
+
 section div.annonces .populaires {
     width: 25%;
     padding: 15px 40px;

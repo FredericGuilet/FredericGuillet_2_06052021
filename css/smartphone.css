@@ -89,6 +89,11 @@
     }
 
     /* ANNONCES */
+
+    .bg-gris2 {
+        background-color:white    }
+
+        
     section div.annonces {
         display: flex;
         flex-direction: column-reverse;
