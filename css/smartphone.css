@@ -138,7 +138,6 @@
         width: 99%;
         height: 115px;
         padding: 3px;
-        padding: 0, 5em;
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
         overflow: hidden;
@@ -227,9 +226,7 @@
     section div.activites .colonne .annonce img {
        
         height: 200px;
-      
         padding: 3px;
-        padding: 0, 5em;
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
         overflow: hidden;
@@ -246,11 +243,9 @@
     }
 
     section div.activites .colonne .annonce3 img {
-        /* width: 98%; */
-        /* flex-grow: 2; */
+      
         height: 400px;
-        padding: -25px;
-        /* padding: 0, 5em; */
+        /* padding: -25px; */
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
         overflow: hidden;
