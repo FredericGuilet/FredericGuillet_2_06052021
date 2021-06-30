@@ -112,15 +112,21 @@
         padding: 0;
     }
 
+        /* POUPOULAIRES */
+
     section div.annonces .populaires {
         order: 1;
         width: 100%;
-        margin-top: 30px;
-        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 5px;
     }
 
     section div.annonces .populaires .annonce {
-        padding: 0;
+        padding: 0px;
+        width: 95%;
+        margin: 15px;
+        border-radius: 20px;
     }
 
     /* ACTIVITES */
