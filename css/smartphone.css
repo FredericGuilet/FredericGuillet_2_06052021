@@ -224,7 +224,7 @@
     }
 
     section div.activites .colonne .annonce img {
-       
+
         height: 200px;
         padding: 3px;
         border-radius: 15px 15px 0px 0px;
@@ -233,19 +233,16 @@
     }
 
     section div.activites .colonne .annonce2 img {
-      
+
         height: 200px;
-        /* padding: -25px; */
-        
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
         overflow: hidden;
     }
 
     section div.activites .colonne .annonce3 img {
-      
+
         height: 400px;
-        /* padding: -25px; */
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
         overflow: hidden;
