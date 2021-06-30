@@ -103,6 +103,11 @@
         object-fit: cover;
     }
 
+    section div.annonces .hebergements h3{
+        /* padding: 25px 25px 15px 25px ; */
+        font-size: 24px;
+    }
+
 
     /* POUPOULAIRES */
 
