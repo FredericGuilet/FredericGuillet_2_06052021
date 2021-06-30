@@ -123,10 +123,16 @@
     }
 
     section div.annonces .populaires .annonce {
-        padding: 0px;
-        width: 95%;
-        margin: 15px;
+        padding: 10px;
+        width: 90%;
+        margin: 10px;
         border-radius: 20px;
+    }
+
+    section div.annonces .populaires h3 {
+       
+        padding: 25px 15px 0px 15px ;
+        font-size: 24px;
     }
 
     /* ACTIVITES */
