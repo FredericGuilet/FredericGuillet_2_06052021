@@ -1,6 +1,5 @@
 @media screen and (min-width: 765px) and (max-width: 1200px) {
 
-    /* Normalement j'aurais du mettre 992px selon les breakpoints responsive design 2021 mais je trouve cela bien adapté */
 
     .wrapper,
     section div.annonces,
@@ -60,10 +59,10 @@
         width: 700px;
     }
 
-    .titredufiltre {
+    /* .titredufiltre {
 
         display: none;
-    }
+    } */
 
     header div.filtres .boutons {
         margin: 5px 0 0 10px;
@@ -126,6 +125,12 @@
         border-radius: 15px;
     }
 
+    section div.annonces .populaires h3
+    {
+       
+        padding: 25px 25px 15px 25px ;
+        font-size: 24px;
+    }
 
     /* ACTIVITES */
 
