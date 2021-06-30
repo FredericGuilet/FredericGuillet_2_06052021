@@ -301,6 +301,7 @@ section .activites .colonne .annonce {
     overflow: hidden;
     margin-top: 15px;
     padding: 0px;
+    height: 92%;
 
 }
 
@@ -337,12 +338,11 @@ section div.activites .colonne .annonce img {
 }
 
 section div.activites .colonne .annonce2 img {
-    height: 80%;
+    height: 200px;
     width: 270px;
     padding: 0%;
     object-fit: cover;
     border-radius: 0px 0px 0px 0px;
-
 }
 
 section div.activites .colonne .annonce3 img {
@@ -368,9 +368,9 @@ section div.activites .colonne .annonce3 h3 {
     font-size: 14px;
 }
 
-section div.activites .colonne .big {
+/* section div.activites .colonne .big {
     flex-grow: 1;
-}
+} */
 
 /* FOOTER */
 
