@@ -103,38 +103,29 @@
         object-fit: cover;
     }
 
-    section div.annonces .hebergements h3{
-        /* padding: 25px 25px 15px 25px ; */
-        font-size: 24px;
-    }
+    section div.annonces .hebergements h3 {
+        padding: 0px 25px 5px 0px;
 
+    }
 
     /* POUPOULAIRES */
 
-    section div.populaires
-    {
+    section div.populaires {
         display: flex;
         display: block;
-       flex-direction: row;
-       justify-content:space-between;
+        flex-direction: row;
+        justify-content: space-between;
         width: 660px;
     }
 
     section div.annonces .populaires {
-       
+
         width: 660px;
         padding: 0px 20px 20px 10px;
 
         margin: 10px 10px 10px 0px;
         /* background-color : #F2F2F2; */
         border-radius: 15px;
-    }
-
-    section div.annonces .populaires h3
-    {
-       
-        padding: 25px 25px 15px 25px ;
-        font-size: 24px;
     }
 
     /* ACTIVITES */
@@ -166,31 +157,30 @@
         border-radius: 0px 0px 0px 0px;
     }
 
-    h3
-    {
+    h3 {
         padding: 25px 25px 0px 15px;
         font-size: 24px;
     }
 
     /* FOOTER */
 
-  
+
 
     footer {
 
-        margin-top: 400px;
-        /* padding-left: 100px;
-        width: 650px;
-        max-width: 650px; */
-      
 
+        /* vu que c'est ma version je préfere sans debordement et arrondi  */
+        padding-left: 60px;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 400px;
+        border-radius: 20px;
     }
 
+
+    /* l'espace entre les ul du footer  */
     footer .wrapper div {
-        /* margin-left: 0px; */
-        width: 40%;
-        /* padding: 10px; */
-  
+        width: 45%;
     }
 
     footer div h6 {
