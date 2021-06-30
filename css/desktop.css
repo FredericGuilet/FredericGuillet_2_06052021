@@ -309,7 +309,7 @@ section .activites .colonne .annonce2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 180px;
+    height: 135px;
     border-radius: 13px;
     overflow: hidden;
     margin-top: 15px;
@@ -321,13 +321,26 @@ section .activites .colonne .annonce3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 260px;
+    height: 247px;
     border-radius: 13px;
     overflow: hidden;
     margin-top: 15px;
     padding: 0px;
     margin-bottom: 15px;
 }
+
+section .activites .colonne .annonce4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 207px;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-top: 15px;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
 
 
 section div.activites .colonne .annonce img {
@@ -353,6 +366,14 @@ section div.activites .colonne .annonce3 img {
     border-radius: 0px 0px 0px 0px;
 }
 
+section div.activites .colonne .annonce4 img {
+    height: 100%;
+    width: 270px;
+    object-fit: cover;
+    padding: 0%;
+    border-radius: 0px 0px 0px 0px;
+}
+
 section div.activites .colonne .annonce h3 {
     padding: 10px 20px;
     font-size: 14px;
@@ -364,6 +385,11 @@ section div.activites .colonne .annonce2 h3 {
 }
 
 section div.activites .colonne .annonce3 h3 {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+section div.activites .colonne .annonce4 h3 {
     padding: 10px 20px;
     font-size: 14px;
 }

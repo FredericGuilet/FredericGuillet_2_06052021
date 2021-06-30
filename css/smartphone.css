@@ -195,7 +195,7 @@
         margin: 20px 10px 5px 0px;
         background-color: white;
         border: 5px solid white;
-        box-shadow: 0px 0px 15px green;
+        box-shadow: 0px 0px 15px #cccccc;
 
     }
 
@@ -210,10 +210,21 @@
         box-shadow: 0px 0px 15px #cccccc;
     }
 
-    section div.activites .colonne .annonce img {
-        width: 98%;
+    section .activites .colonne .annonce4 {
+
+        display: inherit;
         height: 200px;
-        /* padding: -25p */
+        border-width: 1px;
+        margin: 20px 10px 5px 0px;
+        background-color: white;
+        border: 5px solid white;
+        box-shadow: 0px 0px 15px #cccccc;
+    }
+
+    section div.activites .colonne .annonce img {
+       
+        height: 200px;
+      
         padding: 3px;
         padding: 0, 5em;
         border-radius: 15px 15px 0px 0px;
@@ -222,9 +233,19 @@
     }
 
     section div.activites .colonne .annonce2 img {
-        width: 98%;
-        flex-grow: 2;
+      
         height: 200px;
+        /* padding: -25px; */
+        
+        border-radius: 15px 15px 0px 0px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    section div.activites .colonne .annonce3 img {
+        /* width: 98%; */
+        /* flex-grow: 2; */
+        height: 400px;
         padding: -25px;
         /* padding: 0, 5em; */
         border-radius: 15px 15px 0px 0px;
@@ -232,15 +253,12 @@
         overflow: hidden;
     }
 
-    section div.activites .colonne .annonce3 img {
-        width: 98%;
-        flex-grow: 2;
-        height: 400px;
-        padding: -25px;
-        /* padding: 0, 5em; */
-        border-radius: 15px 15px 0px 0px;
-        object-fit: cover;
+    section div.activites .colonne .annonce4 img {
+        height: 100%;
         overflow: hidden;
+        object-fit: cover;
+        padding: 0%;
+        border-radius: 0px 0px 0px 0px;
     }
 
     /* FOOTER */
