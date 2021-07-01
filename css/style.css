@@ -8,7 +8,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
-
     padding: 0;
 }
 
@@ -48,6 +47,11 @@ a {
 .bg-gris {
     background-color: #F2F2F2;
 }
+
+.bg-gris2 {
+    background-color: #F2F2F2;
+}
+
 
 .bordure {
     border-radius: 20px;

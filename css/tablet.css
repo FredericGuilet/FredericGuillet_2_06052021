@@ -163,7 +163,7 @@
 
     /* vu que c'est ma version je préfere sans debordement et arrondi  */
     footer {
-        padding-left: 50px;
+        padding-left: 150px;
         /* width: 590px; */
         /* j'ai hésité a la fixer comme ci dessus mais bon autant faire
         comme les deux autres versions */
@@ -175,6 +175,7 @@
 
     footer .wrapper {
         width: 100%;
+
     }
 
     /* l'espace entre les ul du footer  */
