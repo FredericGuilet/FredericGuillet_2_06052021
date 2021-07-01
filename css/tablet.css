@@ -4,12 +4,9 @@
     .wrapper,
     section div.annonces,
     section div.activites {
-
         width: 680px;
         margin: 0 auto;
-
     }
-
 
     /* HEADER */
     header {
@@ -144,9 +141,7 @@
         flex-direction: column;
         width: 45%;
         height: 110%;
-
     }
-
 
     section div.activites .colonne .annonce img,
     section div.activites .colonne .annonce2 img,
@@ -159,8 +154,6 @@
         border-radius: 0px 0px 0px 0px;
     }
 
-
-
     h3 {
         padding: 25px 25px 0px 15px;
         font-size: 24px;
@@ -168,19 +161,21 @@
 
     /* FOOTER */
 
+    /* vu que c'est ma version je préfere sans debordement et arrondi  */
+    footer {
+        padding-left: 50px;
+        /* width: 590px; */
+        /* j'ai hésité a la fixer comme ci dessus mais bon autant faire
+        comme les deux autres versions */
 
+        margin: 0 auto;
+        margin-top: 560px;
+        border-radius: 20px;
+    }
 
-        /* vu que c'est ma version je préfere sans debordement et arrondi  */
-        footer {
-            padding-left: 60px;
-            width: 580px;
-            margin: 0 auto;
-                margin-top: 0px;
-            margin-top: 560px;
-            border-radius: 20px;
-        }
-    
-
+    footer .wrapper {
+        width: 100%;
+    }
 
     /* l'espace entre les ul du footer  */
     footer .wrapper div {
@@ -191,7 +186,6 @@
         font-size: 14px;
         font-weight: 700;
     }
-
 
     footer div h6,
     footer div ul li {
