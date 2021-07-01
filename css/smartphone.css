@@ -30,16 +30,17 @@
     header .navbar .signin {
 
         position: absolute;
-
         padding: 0px 0px 0px 100px;
     }
 
     header .navbar ul li {
 
-        position: relative;
-
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* position: relative; */
         border-bottom: solid 3px transparent;
-        padding: 80px 0px 0px 05px;
+        padding: 80px 0px 0px 5px;
     }
 
     header .navbar ul li:hover {
@@ -58,7 +59,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: 0 10px;
+        /* padding: 0 10px; */
     }
 
     header form input {
