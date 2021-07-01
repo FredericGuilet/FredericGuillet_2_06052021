@@ -180,85 +180,40 @@
 
     /* ACTIVITES */
 
-    section .activites .colonne
-    {
-        display:flex;
+    section .activites .colonne {
+        /* la je force a cause du destop css  */
+        display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
         height: 200px;
         margin: 5px;
     }
 
     section .activites .colonne2 {
+        /* ici c'est pas la peine */
         display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
         height: 100%;
-    
     }
 
-    section .activites .colonne .annonce {
+    section .activites .colonne .annonce,
+    ection .activites .colonne .annonce2,
+    section .activites .colonne2 .annonce2,
+    section .activites .colonne2 .annonce3,
+    section .activites .colonne2 .annonce4 {
+        /* La j'ai tout regroupé car c'est les memes caractéristiques */
         height: 200px;
-        width : 100%;
+        width: 100%;
         box-shadow: 0px 0px 35px 0px #cccccc;
     }
 
-    section .activites .colonne .annonce2 {
-        height: 200px;
-        width : 100%;
-        box-shadow: 0px 0px 10px 0px #cccccc;
 
-    }
-
-    section .activites .colonne2 .annonce2 {
-
-        height: 200px;
-        width : 100%;
-        box-shadow: 0px 0px 10px 0px #cccccc;
-    }
-
-    section .activites .colonne2 .annonce3 {
-
-        height: 200px;
-        width : 100%;
-        box-shadow: 0px 0px 10px 0px #cccccc;
-    }
-
-    section .activites .colonne2 .annonce4 {
-
-        height: 200px;
-        width : 100%;
-        box-shadow: 0px 0px 10px 0px #cccccc;
-    }
-
-    section div.activites .colonne .annonce img {
-
-        height: 200px;
-        width: 100%;
-        border-radius: 15px 15px 0px 0px;
-        object-fit: cover;
-        overflow: hidden;
-    }
-
-    section div.activites .colonne2 .annonce2 img {
-
-        height: 200px;
-        width: 100%;
-        border-radius: 15px 15px 0px 0px;
-        object-fit: cover;
-        overflow: hidden;
-    }
-
-    section div.activites .colonne2 .annonce3 img {
-
-        height: 200px;
-        width: 100%;
-        border-radius: 15px 15px 0px 0px;
-        object-fit: cover;
-        overflow: hidden;
-    }
-
+    section div.activites .colonne .annonce img,
+    section div.activites .colonne2 .annonce2 img,
+    section div.activites .colonne2 .annonce3 img,
     section div.activites .colonne2 .annonce4 img {
+        /* pareil pour les images */
         height: 200px;
         width: 100%;
         border-radius: 15px 15px 0px 0px;
@@ -269,13 +224,25 @@
     /* FOOTER */
 
     footer {
-        margin-top: 800px;
-
+        margin-top: 900px;
     }
 
+    footer .wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: -150px;
+        margin-top: -20px;
+        padding-left: 0px;
+        /* padding-top: -100px; */
+        width: 150%;
+    }
+
+
     footer .wrapper div {
-        width: 100%;
-        margin-top: 30px;
+
+        width: 150%;
+        margin-top: 10px;
+
     }
 
     h3 {
