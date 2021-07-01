@@ -281,7 +281,7 @@ section .activites .colonne {
     display: flex;
     flex-direction: column;
     width: 270px;
-    height: 494px;
+    height: 496px;
 
 }
 
@@ -309,7 +309,7 @@ section .activites .colonne2 .annonce2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height:160px;
+    height: 165px;
     border-radius: 13px;
     overflow: hidden;
     margin-top: 15px;
@@ -317,7 +317,7 @@ section .activites .colonne2 .annonce2 {
 
 }
 
-section .activites .colonne .annonce3 {
+section .activites .colonne2 .annonce3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -362,7 +362,7 @@ section div.activites .colonne2 .annonce2 img {
 
 
 
-section div.activites .colonne .annonce3 img {
+section div.activites .colonne2 .annonce3 img {
     height: 100%;
     width: 270px;
     object-fit: cover;
