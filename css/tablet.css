@@ -16,7 +16,14 @@
     header .navbar ul li {
         border-top: none;
         border-bottom: solid 3px transparent;
+        /* en mode transparent pour pas qu'elle s'affiche par defaut */
         padding: 30px 25px 30px 25px;
+    }
+
+    header .navbar .active ,header .navbar ul li.active a{
+
+        border-top : none;
+        border-color: #0065FC;
     }
 
     header h2 {
