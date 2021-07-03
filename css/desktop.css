@@ -12,20 +12,16 @@ header {
     margin-bottom: 30px;
 }
 
-header .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .navbar .mobile {
-    display: none;
-}
 
 header .navbar ul {
     display: flex;
+}
 
+.navhebergment, .navactivite, .navsignin
+{
+    width: 190px;
+    display: flex;
+    justify-content: center;
 }
 
 header .navbar ul li {
@@ -41,7 +37,7 @@ header .navbar ul li:hover {
     border-color: #0065FC;
 }
 
-header .navbar ul li.active a,
+header .navbar ul li.navhebergment a,
 header .navbar ul li.signin a {
     color: #0066FF;
 }
