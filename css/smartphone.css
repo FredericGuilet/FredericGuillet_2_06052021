@@ -28,6 +28,7 @@
      {
 
         margin-top: -30px;
+        margin-bottom : 30px;
         justify-content: space-around;
         align-items: center;
 
@@ -35,7 +36,9 @@
 
     header .navbar .active ,header .navbar ul li.active a{
 
-        border-bottom: -103px ;
+        border-top : hidden;
+        /* border-top-color: hidden; */
+        border-bottom: -123px ;
         border-color: #0065FC;
     }
 
@@ -47,6 +50,8 @@
     }
 
     header .navbar ul li {
+
+        /* pour essayer de mettre le menu au milieu et souligné en bas */
 
         display: flex;
         position: relative;
