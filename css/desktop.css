@@ -34,7 +34,6 @@ header {
     justify-content: center;
 }
 
-
 header .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -84,13 +83,11 @@ header .fa-map-marker-alt {
 
     background-color: #F2F2F2;
     padding: 12px 12px 12px 12px;
-
     border-style: none;
     border-radius: 13px 0 0 13px;
     color: black;
     font-size: 1em;
     font-weight: 700;
-
 
 }
 

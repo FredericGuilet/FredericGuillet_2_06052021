@@ -1,6 +1,5 @@
 @media screen and (min-width: 765px) and (max-width: 1200px) {
 
-
     .wrapper,
     section div.annonces,
     section div.activites {
@@ -63,11 +62,6 @@
         width: 700px;
     }
 
-    /* .titredufiltre {
-
-        display: none;
-    } */
-
     header div.filtres .boutons {
         margin: 5px 0 0 10px;
     }
@@ -111,7 +105,7 @@
         padding: 0px 25px 5px 0px;
 
     }
-
+ 
     /* POUPOULAIRES */
 
     section div.populaires {

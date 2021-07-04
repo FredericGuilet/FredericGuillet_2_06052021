@@ -3,7 +3,7 @@
 /* Ceci est la feuille de style qui gere l'ensemble commun  */
 
 body {
-    font-family: "Raleway";
+    font-family: "Raleway"; 
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
@@ -65,4 +65,5 @@ img:hover
  {
      opacity: 0.5;
 }
+
 
