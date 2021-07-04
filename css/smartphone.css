@@ -4,8 +4,11 @@
     .wrapper,
     section div.annonces,
     section div.activites {
-        width: 100%;
-        margin: 0;
+        /* width: 100%; */
+        width: 450px;
+        min-width 375px;
+        margin: 0 auto;
+        /* margin: 0; */
         padding: 0;
     }
 
@@ -24,17 +27,34 @@
         width: 120px;
     }
 
+    .navsignin{
+        width: 190px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navactivites{
+        width: 190px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navhebergements{
+        width: 190px;
+        display: flex;
+        justify-content: center;
+    }
+
     header .navbar 
      {
-
+         display: flex;
         margin-top: -30px;
         margin-bottom : 30px;
         justify-content: space-around;
         align-items: center;
-
     }
 
-    header .navbar .active ,header .navbar ul li.active a{
+    header .navbar .active ,header .navbar ul li.navhebergements a{
 
         border-top : hidden;
         /* border-top-color: hidden; */
@@ -45,7 +65,7 @@
     header .navbar .navsignin {
 
         /* position: absolute; c'est ce j'avais vu avec hugo mais j'y arrive pas */
-        padding: 0px 0px 0px 100px;
+        padding: 0px 0px 0px 0px;
         font-weight: bold;
     }
 
