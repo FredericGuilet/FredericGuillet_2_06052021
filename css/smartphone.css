@@ -3,7 +3,8 @@
 
     .wrapper,
     section div.annonces,
-    section div.activites {
+    section div.ve
+    vites {
         width: 100%;
         /* width: 450px; */
         /* min-width 375px; */
@@ -20,12 +21,6 @@
     header {
         padding: 10px 0px 0px;
     }
-
-    /* header.logo { */
-/* position: absolute; */
-        /* margin-top: 10px;
-        width: 120px;
-    } */
 
     header .navsignin{
         width: 190px;
@@ -45,7 +40,7 @@
         justify-content: center;
     }
 
-    header .navbar p
+    header .navbar 
      {
         display: flex;
         flex-direction: row;
@@ -55,30 +50,51 @@
         align-items: center;
     }
 
-    header .navbar .navhebergements ,header .navbar ul li.navhebergements a{
 
-        border-top : hidden;
-        border-top-color: hidden;
-        /* border-bottom: 1px ; */
-        border-color: #0065FC;
-        /* border-bottom: solid 3px red; */
-    }
+header .navbar ul li {
+    border-top: none;
+    /* border-top-color: currentcolor; */
+    /* border-bottom: solid 3px transparent; */
+    padding: 30px 25px 30px 25px;
+    margin: 5px;
+    border-color: #F2F2F2;
+}
 
+header .navbar  {
+    /* position: absolute; */
+    margin-top: 0px;
+    margin-right: 50px;
+    padding: 30px 20px 15px 00px;
+    font-weight: bold;
 
+}
     header .navbar .navsignin {
-        /* position: absolute; */
-        margin-top: -70px;
-        margin-right: 50px;
-        /* padding: 60px 20px 15px 150px; */
+        position: absolute;
+        top: 10px; right: -120px;
         font-weight: bold;
     }
+  
 
     header .navbar .logo 
     {
         /* position: absolute; */
-        margin-top : -300px; 
+        margin-top : -400px; 
         /* padding: -400px 0px 0px 0px; */
     }
+
+    .active {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: #0066FF;
+        border-bottom: solid 3px blue;
+    }
+
+    header .navbar ul li.active a,
+    header .navbar ul li.navsignin a {
+    color: #0066FF;
+}
+
 
     
     header .navbar p {
@@ -86,9 +102,9 @@
         /* pour essayer de mettre le menu au milieu et souligné en bas */
 
         display: flex;
-        position: relative;
+        flex-direction: row;
         /* border-bottom: solid 3px red; */
-        padding: 80px 0px 0px 05px;
+        padding: 80px 0px 0px 5px;
     }
 
     header .navbar p :hover {

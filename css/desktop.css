@@ -13,13 +13,28 @@ header {
     margin-bottom: 30px;
 }
 
-.logo{
-    
+.logo{  
     margin-top : 40px;
     margin-right: auto; 
     /* permet de faire passer la marge droite du logo au max et donc pousser la nav tout à droite de la page */
     width: 120px;
 } 
+
+.active 
+{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.active 
+{
+    width: 190px;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 header .navbar {
     display: flex;
