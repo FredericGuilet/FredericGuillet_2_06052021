@@ -60,8 +60,9 @@ header .navbar ul li {
     border-color: #F2F2F2;
 }
 
+
 header .navbar  {
-    /* position: absolute; */
+    position: absolute;
     margin-top: 0px;
     margin-right: 50px;
     padding: 30px 20px 15px 00px;
@@ -77,8 +78,10 @@ header .navbar  {
 
     header .navbar .logo 
     {
+        position: absolute;
+        top: 10px; right: -120px;
         /* position: absolute; */
-        margin-top : -400px; 
+        /* margin-top : -400px;  */
         /* padding: -400px 0px 0px 0px; */
     }
 
