@@ -46,8 +46,11 @@
         flex-direction: row;
         margin-top: -30px;
         margin-bottom : 30px;
+        margin-right: 50px;
+        padding: 30px 20px 15px 00px;
         justify-content: space-around;
         align-items: center;
+        font-weight: bold;
     }
 
 
@@ -61,14 +64,6 @@ header .navbar ul li {
 }
 
 
-header .navbar  {
-  
-    margin-top: 0px;
-    margin-right: 50px;
-    padding: 30px 20px 15px 00px;
-    font-weight: bold;
-
-}
 
     header .navbar .navsignin {
         position: absolute;
@@ -167,7 +162,7 @@ header .navbar  {
 
 
     .bg-gris2 {
-        background-color: white
+        background-color: white;
     }
 
     /* J'ai overiter le background color pour la version 
