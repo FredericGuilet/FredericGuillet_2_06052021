@@ -9,31 +9,23 @@ section div.activites {
 
 /* HEADER */
 header {
-    margin-top : 40px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
-.logo{
-    
-    margin-top : 40px;
-    margin-right: auto; /* permet de faire passer la marge droite du logo au max et donc pousser la nav tout à droite de la page */
+.logo {
+
+    margin-top: 40px;
+    margin-right: auto;
+/* la nav tout à droite de la page */
     width: 120px;
-}
-
-header .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header .navbar .mobile {
-    display: none;
 }
 
 header .navbar ul {
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header .navbar ul li {
@@ -54,9 +46,6 @@ header .navbar ul li.navsignin a {
     color: #0066FF;
 }
 
-header .navbar ul li.navsignin a {
-    /* font-weight: 700; */
-}
 
 header h2,
 header p,
