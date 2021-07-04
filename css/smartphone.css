@@ -69,10 +69,12 @@ header .navbar  {
     font-weight: bold;
 
 }
+
     header .navbar .navsignin {
         position: absolute;
-        top: 10px; right: -120px;
+        top: 10px;
         font-weight: bold;
+        left: 250px;
     }
   
 
@@ -256,13 +258,18 @@ header .navbar  {
 
     /* ACTIVITES */
 
+    .wrapper, section div.annonces, section div.activites {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     section .activites .colonne {
         /* la je force a cause du destop css  */
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 200px;
-        /* margin: 5px; */
+        margin: 5px;
     }
 
     section .activites .colonne2 {
@@ -271,11 +278,11 @@ header .navbar  {
         flex-direction: column;
         width: 100%;
         height: 100%;
-        /* margin: 5px; */
+        margin: 10px;
     }
 
     section .activites .colonne .annonce,
-    ection .activites .colonne .annonce2,
+    section .activites .colonne .annonce2,
     section .activites .colonne2 .annonce2,
     section .activites .colonne2 .annonce3,
     section .activites .colonne2 .annonce4 {
@@ -286,16 +293,16 @@ header .navbar  {
     }
 
 
-    section div.activites .colonne .annonce img,
-    section div.activites .colonne2 .annonce2 img,
-    section div.activites .colonne2 .annonce3 img,
+    section div.activites .colonne .annonce img, 
+    section div.activites .colonne .annonce2 img,
+    section div.activites .colonne2 .annonce2 img, 
+    section div.activites .colonne2 .annonce3 img, 
     section div.activites .colonne2 .annonce4 img {
-        /* pareil pour les images */
         height: 200px;
         width: 100%;
         border-radius: 15px 15px 0px 0px;
         object-fit: cover;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     /* FOOTER */
@@ -303,7 +310,7 @@ header .navbar  {
     footer {
 
         margin: 0 auto;
-        margin-top: 880px;
+        margin-top: 910px;
         /* width: 120%;
             max-width: 100%; */
         padding-left: 100px;
