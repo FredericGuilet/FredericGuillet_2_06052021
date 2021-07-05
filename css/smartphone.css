@@ -3,8 +3,7 @@
 
     .wrapper,
     section div.annonces,
-    section div.ve
-    vites {
+    section div.ve vites {
         width: 100%;
         /* width: 450px; */
         /* min-width 375px; */
@@ -22,76 +21,94 @@
         padding: 10px 0px 0px;
     } */
 
-    header .navsignin{
+    header .navsignin {
         width: 50px;
         /* display: flex; */
         justify-content: center;
     }
 
-    header .navactivites{
+    header .navactivites {
         width: 50%;
         /* display: flex; */
         justify-content: center;
     }
 
-    header .navhebergements{
+    header .navhebergements {
         width: 50%;
         /* display: flex; */
         justify-content: center;
     }
 
-    header .navbar 
-     {
+    header .navbar {
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
-        width: 100%;
-        margin-bottom : 30px;
+        flex-wrap: wrap;
+        width: 120%;
+        margin-bottom: 30px;
         margin-right: 50px;
-        padding: 30px 0px 25px 0px;
-        justify-content: space-around;
+        padding: 30px 0px 25px 10px;
+        justify-content: space-between;
         align-items: center;
         font-weight: bold;
     }
 
 
-header .navbar  ul li {
+    header .navbar ul li {
 
-    margin: 5px;
-    border-color: white;
-    border-top: hidden; 
-    padding: 30px 25px 30px 25px;
-    margin: 5px;
+        margin: 5px;
+        border-color: white;
+        border-top: hidden;
+        padding: 30px 25px 30px 25px;
+        margin: 5px;
 
-}
+    }
 
     header .navbar .navsignin {
         position: absolute;
         top: 10px;
         font-weight: bold;
-        right: 0px;
+        right: 30px;
     }
-  
 
-     
+    .logo {
+        margin-top: -450px;
+        margin-right: 150px;
+        width: 120px;
+        margin-bottom: 15px;
+    }
 
-    header .navbar  .active {
+
+
+
+    header .navbar .active {
         width: 50%;
         display: flex;
         justify-content: center;
         border-bottom: solid 3px blue;
         padding: 30px 25px 30px 25px;
-        margin: 5px;
-        border-color: blue;
+        /* margin: 5px; */
+ 
     }
+
+    header .navbar .active2 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 3px #F2F2F2;
+        padding: 30px 25px 30px 25px;
+        /* margin: 5px; */
+        /* border-color: blue; */
+    }
+
+
 
     header .navbar ul li.active a,
     header .navbar ul li.navsignin a {
-    color: #0066FF;
-}
+        color: #0066FF;
+    }
 
 
-    
+
     header .navbar p {
 
         /* pour essayer de mettre le menu au milieu et souligné en bas */
@@ -107,8 +124,7 @@ header .navbar  ul li {
         border-color: transparent;
     }
 
-    .nav
-    {
+    .nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -252,7 +268,9 @@ header .navbar  ul li {
 
     /* ACTIVITES */
 
-    .wrapper, section div.annonces, section div.activites {
+    .wrapper,
+    section div.annonces,
+    section div.activites {
         width: 100%;
         margin: 0 auto;
     }
@@ -287,10 +305,10 @@ header .navbar  ul li {
     }
 
 
-    section div.activites .colonne .annonce img, 
+    section div.activites .colonne .annonce img,
     section div.activites .colonne .annonce2 img,
-    section div.activites .colonne2 .annonce2 img, 
-    section div.activites .colonne2 .annonce3 img, 
+    section div.activites .colonne2 .annonce2 img,
+    section div.activites .colonne2 .annonce3 img,
     section div.activites .colonne2 .annonce4 img {
         height: 200px;
         width: 100%;
@@ -301,12 +319,12 @@ header .navbar  ul li {
 
     /* FOOTER */
 
-    
+
     footer {
 
         margin: 0 auto;
         margin-top: 910px;
-        
+
         padding-left: 100px;
 
     }
