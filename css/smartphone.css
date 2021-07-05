@@ -43,7 +43,8 @@
     }
 
   header .navbar {
-       flex: display;
+
+      display: flex; 
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
