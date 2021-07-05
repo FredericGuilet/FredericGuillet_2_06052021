@@ -18,24 +18,24 @@
     }
 
     /* HEADER */
-    header {
+    /* header {
         padding: 10px 0px 0px;
-    }
+    } */
 
     header .navsignin{
-        width: 190px;
+        width: 50px;
         /* display: flex; */
         justify-content: center;
     }
 
     header .navactivites{
-        width: 190px;
+        width: 50%;
         /* display: flex; */
         justify-content: center;
     }
 
     header .navhebergements{
-        width: 190px;
+        width: 50%;
         /* display: flex; */
         justify-content: center;
     }
@@ -44,46 +44,45 @@
      {
         display: flex;
         flex-direction: row;
-        margin-top: -30px;
+        flex-wrap:wrap;
+        width: 100%;
         margin-bottom : 30px;
         margin-right: 50px;
-        padding: 30px 20px 15px 00px;
+        padding: 30px 0px 25px 0px;
         justify-content: space-around;
         align-items: center;
         font-weight: bold;
     }
 
 
-header .navbar ul li {
-    border-top: none;
-    /* border-top-color: currentcolor; */
-    /* border-bottom: solid 3px transparent; */
+header .navbar  ul li {
+
+    margin: 5px;
+    border-color: white;
+    border-top: hidden; 
     padding: 30px 25px 30px 25px;
     margin: 5px;
-    border-color: #F2F2F2;
+
 }
-
-
 
     header .navbar .navsignin {
         position: absolute;
         top: 10px;
         font-weight: bold;
-        left: 250px;
+        right: 0px;
     }
   
 
-    header .navbar .logo 
-    {  
-        margin-top : -400px; 
-    }
+     
 
-    .active {
+    header .navbar  .active {
         width: 50%;
         display: flex;
         justify-content: center;
-        color: #0066FF;
         border-bottom: solid 3px blue;
+        padding: 30px 25px 30px 25px;
+        margin: 5px;
+        border-color: blue;
     }
 
     header .navbar ul li.active a,
