@@ -56,11 +56,6 @@ header .navbar ul li {
 }
 
 
-header .navbar ul li:hover {
-    cursor: pointer;
-    border-color: #0065FC;
-}
-
 header .navbar ul li.active a,
 header .navbar ul li.navsignin a {
     color: #0066FF;
